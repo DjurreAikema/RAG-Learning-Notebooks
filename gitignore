@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local vector database (rebuilt from your docs — don't commit)
+chroma_db/
+notebooks/chroma_db/
+
+# Your real company documents (keep private; commit only samples)
+data/*
+!data/README.md
+!data/sample_company_handbook.md
+
+# OS junk
+.DS_Store
+Thumbs.db

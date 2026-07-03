@@ -1,0 +1,22 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+
+# Ollama integration (local LLM + embeddings)
+langchain-ollama
+
+# Vector store
+langchain-chroma
+chromadb
+
+# Text splitting
+langchain-text-splitters
+
+# Document loaders
+pypdf          # PDF files
+docx2txt       # Word .docx files
+
+# Notebook + utilities
+jupyter
+requests
