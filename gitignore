@@ -8,11 +8,11 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Local vector database (rebuilt from your docs — don't commit)
+# Local vector database
 chroma_db/
 notebooks/chroma_db/
 
-# Your real company documents (keep private; commit only samples)
+# Company documents (keep private; commit only samples)
 data/*
 !data/README.md
 !data/sample_company_handbook.md
